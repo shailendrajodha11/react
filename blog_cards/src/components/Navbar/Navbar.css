@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201101/pngtree-scene-with-geometrical-forms-the-poster-model-minimal-background-render-image_452981.jpg");
+    background-size: cover;
+}
+.logo{
+    width: 14vh;
+    padding: 2vh;
+    margin-left: 2rem;
+}
+.logo img{
+    width: 100%;
+}
+.right_part{
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+}
+.right_part ul{
+    display: flex;
+    list-style: none;
+}
+.right_part ul li{
+    margin-left: 3rem;
+    font-size: 120%;
+}
+.right_part ul li a{
+    text-decoration: none;
+    color: black;
+}

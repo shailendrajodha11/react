@@ -1,0 +1,31 @@
+.card_container{
+    width: 20vw;
+    position: relative;
+    display: inline-block;
+    margin: 2rem 4rem;
+}
+.card_img img{
+    width: 100%;
+    border-radius: 11px;
+}
+.avatar_img{
+    position: absolute;
+    /* mix-blend-mode: multiply; */
+    top: 3vh;
+    right: 2vw;
+    width: 4.5vw;
+}
+.avatar_img img{
+    width: 100%;
+    border-radius: 7px;
+}
+.content{
+    position: absolute;
+    bottom: 3vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0 1vw;
+    padding: 1vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+    border-radius: 7px;
+}
