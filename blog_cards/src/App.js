@@ -7,6 +7,9 @@ const App = () => {
     <>
       <Navbar/>
       <Cards/>
+      {/* <Cards datas={datas.slice(0,3)} />
+      <Cards datas={datas.slice(4,6)} /> */}
+
     </>
   )
 }

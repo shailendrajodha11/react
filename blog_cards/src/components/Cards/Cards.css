@@ -1,4 +1,6 @@
+
 .card_container{
+    /* border: 2px solid red; */
     width: 20vw;
     position: relative;
     display: inline-block;

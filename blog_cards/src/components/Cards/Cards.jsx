@@ -3,7 +3,8 @@ import "./Cards.css";
 import datas from "../../utils/data.js";
 
 const Cards = () => {
-  return datas.map((data, index) => (
+  let first = datas.slice(0,2)
+  return first.map((data, index) => (
     <div className="outer">
       <div className="card_container">
       <div class="card_img">
